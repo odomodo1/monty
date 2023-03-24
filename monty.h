@@ -1,7 +1,9 @@
 #ifndef MONTY_H
 #define MONTY_H
 
-/* Constants */
+#define _GNU_SOURCE
+
+/*Constants */
 #define SUCSS_OP	0
 #define VALID_PARM	0
 #define MIN_ARGS	2
@@ -28,6 +30,7 @@
 #define ERR_PCH_USG	211
 #define ERR_PCH_EMP	212
 
+#include <stdio.h>
 #include <ctype.h>
 #include <fcntl.h>
 #include <stdlib.h>
